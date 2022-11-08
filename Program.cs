@@ -12,12 +12,14 @@ public class Program
         Console.WriteLine("Person details - {0}", person);
 
         // Set some values on the person object:
-        person.Name = "Joe";
-        person.Age = 99;
+        person.Name = "Jokke";
+        person.Age = 46;
+        person.Restaurant = "Kotipizza";
         Console.WriteLine("Person details - {0}", person);
 
         // Increment the Age property:
         person.Age += 1;
+        person.Restaurant = "Burger King";
         Console.WriteLine("Person details - {0}", person);
 
         // Keep the console window open in debug mode.
