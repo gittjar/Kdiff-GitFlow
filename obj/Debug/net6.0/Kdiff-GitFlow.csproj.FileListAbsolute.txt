@@ -1,0 +1,15 @@
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/bin/Debug/net6.0/Kdiff-GitFlow
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/bin/Debug/net6.0/Kdiff-GitFlow.deps.json
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/bin/Debug/net6.0/Kdiff-GitFlow.runtimeconfig.json
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/bin/Debug/net6.0/Kdiff-GitFlow.dll
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/bin/Debug/net6.0/Kdiff-GitFlow.pdb
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/obj/Debug/net6.0/Kdiff-GitFlow.csproj.AssemblyReference.cache
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/obj/Debug/net6.0/Kdiff-GitFlow.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/obj/Debug/net6.0/Kdiff-GitFlow.AssemblyInfoInputs.cache
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/obj/Debug/net6.0/Kdiff-GitFlow.AssemblyInfo.cs
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/obj/Debug/net6.0/Kdiff-GitFlow.csproj.CoreCompileInputs.cache
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/obj/Debug/net6.0/Kdiff-GitFlow.dll
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/obj/Debug/net6.0/refint/Kdiff-GitFlow.dll
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/obj/Debug/net6.0/Kdiff-GitFlow.pdb
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/obj/Debug/net6.0/Kdiff-GitFlow.genruntimeconfig.cache
+/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/obj/Debug/net6.0/ref/Kdiff-GitFlow.dll
