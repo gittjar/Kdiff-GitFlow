@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 
+
 public class Program
 {
         static void GetPerson()
@@ -45,7 +46,7 @@ public class Program
 
         // customer
                 // Initialize a new object.
-        Customer cust1 = new Customer(4987.63, "Northwind", 90108);
+        Customer cust1 = new Customer(4987.63, "Jouko Ahola", 90108);
         // Modify a property.
         cust1.TotalPurchases += 499.99;
 

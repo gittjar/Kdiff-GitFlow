@@ -15,11 +15,17 @@ public class Customer
 
     // Methods
     public string GetContactInfo() { return "ContactInfo"; }
-    
     public void GetTransactionHistory() 
     { 
         
-        Console.WriteLine("ostoshistoriasi!");
+        Console.WriteLine("ostoshistoriasi: " + Name);
+
+        
+        string[] items = {"Takki", "Paita", "Kengät", "Puhelin", "Vasara", "Jatkojohto"};
+        var totalElements = items.Count();
+		totalElements = items.Count();
+		Console.WriteLine(totalElements);
+        Console.WriteLine("----");
     }
 
     // .. Additional methods, events, etc.
