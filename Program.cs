@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 
+
 public class Program
 {
         static void GetPerson()
@@ -42,6 +43,18 @@ public class Program
 
         // haetaan henkilötiedot
         GetPerson();
+
+        // customer
+                // Initialize a new object.
+        Customer cust1 = new Customer(4987.63, "Jouko Ahola", 90108);
+        // Modify a property.
+        cust1.TotalPurchases += 499.99;
+
+        //metodin kutsu
+        cust1.GetTransactionHistory();
+
+       Console.WriteLine("ID: " + cust1.CustomerId + " Name: " + cust1.Name + " Kaikki ostokset: " + cust1.TotalPurchases  );
+
 
 	}
 }
