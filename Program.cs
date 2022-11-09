@@ -46,9 +46,10 @@ public class Program
 
         // customer
                 // Initialize a new object.
-        Customer cust1 = new Customer(4987.63, "Jouko Ahola", 90108);
+        Customer cust1 = new Customer(4987.63, "Jouko Ehola", 90108);
         // Modify a property.
         cust1.TotalPurchases += 499.99;
+        cust1.TotalPurchases -= 123.95;
 
         //metodin kutsu
         cust1.GetTransactionHistory();

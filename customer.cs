@@ -21,10 +21,12 @@ public class Customer
         Console.WriteLine("ostoshistoriasi: " + Name);
 
         
-        string[] items = {"Takki", "Paita", "Kengät", "Puhelin", "Vasara", "Jatkojohto"};
+        string[] items = {"LVI-putkia", "Kuutio tiiliä", "Teräsverkkoa", "Lankkua", "EPS-eristettä", "Patolevyä"};
         var totalElements = items.Count();
 		totalElements = items.Count();
-		Console.WriteLine(totalElements);
+		Console.WriteLine("tuotteita: " + totalElements + " kappaletta!");
+        Console.WriteLine("----");
+        Array.ForEach(items, Console.WriteLine);
         Console.WriteLine("----");
     }
 
