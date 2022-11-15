@@ -41,11 +41,12 @@ public class Program
 		totalElements = nums.Count();
 		Console.WriteLine(totalElements);
 
-        // haetaan henkilötiedot
+        
+        
         GetPerson();
 
         // customer
-                // Initialize a new object.
+        // Initialize a new object.
         Customer cust1 = new Customer(4987.63, "Jouko Ehola", 90108);
         // Modify a property.
         cust1.TotalPurchases += 499.99;
