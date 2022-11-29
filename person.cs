@@ -1,55 +1,83 @@
 class Person
 {
-    private string _name = "N/A";
-    private int _age = 0;
+    private string nimi = "N/A";
+    private int ika = 0;
+
+    private string favRestaurant = "Dennis";
 
     // Declare a Name property of type string:
     public string Name
     {
         get
         {
-            return _name;
+            return nimi;
         }
         set
         {
-            _name = value;
+            nimi = value;
         }
     }
+
+    public string Restaurant
+    {
+        get
+        {
+            return favRestaurant;
+        }
+        set
+        {
+            favRestaurant = value;
+        }
+    }
+
 
     // Declare an Age property of type int:
     public int Age
     {
         get
         {
-            return _age;
+            return ika;
         }
-
         set
         {
-            _age = value;
+            ika = value;
         }
     }
 
     public override string ToString()
     {
-        return "Name = " + Name + ", Age = " + Age;
+        return "Nimi = " + Name + ", Ikä = " + Age + " Lempiravintola: " + Restaurant;
     }
 }
 
 public class Wrapper
 {
-    private string _name = "N/A";
+    private string nimi = "N/A";
+    public string favRestaurant = "Boneless";
     public string Name
     {
         get
         {
-            return _name;
+            return nimi;
         }
         private set
         {
-            _name = value;
+            nimi = value;
         }
     }
+
+        public string Restaurant
+    {
+        get
+        {
+            return favRestaurant;
+        }
+        private set
+        {
+            favRestaurant = value;
+        }
+    }
+
 
 }
 

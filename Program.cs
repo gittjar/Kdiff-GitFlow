@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 
+
 public class Program
 {
         static void GetPerson()
@@ -12,12 +13,14 @@ public class Program
         Console.WriteLine("Person details - {0}", person);
 
         // Set some values on the person object:
-        person.Name = "Joe";
-        person.Age = 99;
+        person.Name = "Jokke";
+        person.Age = 46;
+        person.Restaurant = "Kotipizza";
         Console.WriteLine("Person details - {0}", person);
 
         // Increment the Age property:
         person.Age += 1;
+        person.Restaurant = "Burger King";
         Console.WriteLine("Person details - {0}", person);
 
         // Keep the console window open in debug mode.
@@ -38,8 +41,21 @@ public class Program
 		totalElements = nums.Count();
 		Console.WriteLine(totalElements);
 
-        // haetaan henkilötiedot
+        
         GetPerson();
+
+        // customer
+    
+        Customer cust1 = new Customer(4987.63, "Jouko Ehola", 90108);
+        // Modify a property.
+        cust1.TotalPurchases += 499.99;
+        cust1.TotalPurchases -= 123.95;
+
+        //metodin kutsu
+        cust1.GetTransactionHistory();
+
+       Console.WriteLine("ID: " + cust1.CustomerId + " Name: " + cust1.Name + " Kaikki ostokset: " + cust1.TotalPurchases  );
+
 
 	}
 }
