@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "2/8KO6soF7ZXhQeR0QKHPAYgxOmAoES53Sw9q7Zudkn10uaW26uTuOQz4Vru1mJEYIoJQODiKxaSeVZPfTJR6Q==",
+=======
   "dgSpecHash": "dqphjtUkM6vrIKuuo/y+ov5Zw9ZecTp9mrjCZBnpALnS45iugvuvaRB7L1/SdYN4C411vod5LG1M5vMuGiSpbA==",
+>>>>>>> develop
   "success": true,
   "projectFilePath": "/Users/s2200692/ASP-net-harjoitukset/Kdiff-GitFlow/Kdiff-GitFlow.csproj",
   "expectedPackageFiles": [],
